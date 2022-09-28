@@ -1,7 +1,9 @@
 import React from 'react'
 import "../form/simpleForm.css"
-import Header from '../header/Header'
 import Navbar from '../navbar/Navbar'
+import Header from '../header/Header'
+import Reservation from '../reservations/Reservation'
+
 
 function SimpleForm() {
   return (
@@ -9,6 +11,7 @@ function SimpleForm() {
         <div>
             <Navbar />
             <Header />
+            <Reservation />
         </div> 
     </div>
   )

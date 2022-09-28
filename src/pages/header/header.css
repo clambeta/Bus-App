@@ -6,7 +6,7 @@
 }
 
 .headerContainer{
-    width: 13%;
+    width: 20%;
     margin: 8px 0px 50px 0px;
 }
 
@@ -34,10 +34,15 @@
     border: 1px solid white;
     padding: 10px;
     border-radius: 20px;
+    width: 100%;
+}
+
+.subContainer {
+    margin-left: 20px;
 }
 
 .headerDesc{
-    width: 150%;
+    width: 100%;
     margin: 0px 30px 30px 0px;
     align-items: center;
 }
